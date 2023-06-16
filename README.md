@@ -21,7 +21,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Rails Recipe App <a name="about-project"></a>
+# 📖 Hello App <a name="about-project"></a>
 
 **Hello App** is a application where the api is created using rails 7 and the frontend using react/redux" 
 
