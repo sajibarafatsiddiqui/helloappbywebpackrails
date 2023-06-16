@@ -3,7 +3,6 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 const baseUrl = 'api/v1/random_greeting';
-// const apiKey = 'f7b89fe31c77772c4972eea6dc268fcb';
 
 export const fetchAllGreetings = createAsyncThunk(
   'greeting/fetchAllGreetings',
