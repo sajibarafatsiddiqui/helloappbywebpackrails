@@ -18,7 +18,7 @@ module.exports = {
   },
   output: {
     filename: '[name].js',
-    sourceMapFilename: '[name].js.map',
+    sourceMapFilename: '[file].map',
     path: path.resolve(__dirname, 'app/assets/builds'),
   },
   plugins: [
@@ -26,4 +26,5 @@ module.exports = {
       maxChunks: 1,
     }),
   ],
+
 };
