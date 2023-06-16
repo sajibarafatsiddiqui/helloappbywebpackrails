@@ -1,6 +1,6 @@
 # 📗 Table of Contents
 
-<img src='./helloapp.png'>
+<img src='./hello.jpg'>
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
@@ -23,10 +23,11 @@
 
 # 📖 Rails Recipe App <a name="about-project"></a>
 
-**Budget_APp** is a Rails interactive application where Users can create categories and can make transactions under the categories" 
+**Hello App** is a application where the api is created using rails 7 and the frontend using react/redux" 
 
 ## 🛠 Built With <a name="built-with"></a>
  >Ruby on Rails
+ >React-Redux
  >Postgresql
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -34,6 +35,17 @@
 <summary>Ruby on Rails</summary>
   <ul>
     <li><a href="https://rubyonrails.org/">RubyonRails</a></li>
+  </ul>
+</details> 
+<summary>React</summary>
+  <ul>
+    <li><a href="https://react.dev/">React</a></li>
+  </ul>
+</details> 
+</details> 
+<summary>React</summary>
+  <ul>
+    <li><a href="https://redux-toolkit.js.org/">Redux Toolkit</a></li>
   </ul>
 </details> 
 <details>
@@ -46,27 +58,22 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **Created the model**
-- **Created four entities User, Categories, Deals**
-- **Created controllers, routes, views according to the naming convention**
-- **Created Unit tests using RSpec on Controller, Views and Routes**
-- **Added the feaured of adding category and deal**
-- **Added Integration testing using Capybara**
-- **Added Devise for Authentication.**
-
+- **Created and setup database using postgresql to store the greetings**
+- **Created the rails api**
+- **Setup the react using webpack**
+- **Setup redux toolkit to store the application state**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ##🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://budgetapp-q1s5.onrender.com)
+- [Not depoyed yet]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> This is an interactive Recipe app where writers can share their thoughts to audiance and the audiance can share their
-response through likes and comments.
+> This is an app where one can have the basic knowledge on how to create api using rails and create a react frontend app using that api
 
 To get a local copy up and running, follow these steps.
 
@@ -75,6 +82,8 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 - ruby
 - rails
+- react
+- redux toolkit
 - postgresql
   <br>
 
@@ -82,10 +91,8 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository to your desired folder:
-  cd d:
-    <br>
-  git clone git@github.com:sajibarafatsiddiqui/budget_app.git
 
+  git clone git@github.com:sajibarafatsiddiqui/helloappbywebpackrails.git
 ### Install
 
 Install this project with:
@@ -95,8 +102,8 @@ gem i rails
 
 To run the project, execute the following command:
 ```sh
-  cd BudgetApp
-  rails s
+  cd helloappbywebpackrails
+  ./bin/dev
 ```
 ### Run tests
 
@@ -136,8 +143,7 @@ Integration Test:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Completing Controller Part
-- Completing the View Part
+- Adding Styling
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
